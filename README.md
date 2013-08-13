@@ -25,6 +25,7 @@ The focus here is to introduce navigation in a shell environment. (Note: shell, 
 * mv
 * 
 
+```
 C
  (\.   \      ,/)
   \(   |\     )/
@@ -32,6 +33,7 @@ C
  (/ /\_#oo#_/\ \)
   \/\  ####  /\/
        `##'
+```
 
 
  
