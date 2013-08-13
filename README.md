@@ -23,6 +23,15 @@ The focus here is to introduce navigation in a shell environment. (Note: shell, 
 * chmod
 * man
 * mv
+* 
+
+C
+ (\.   \      ,/)
+  \(   |\     )/
+  //\  | \   /\\
+ (/ /\_#oo#_/\ \)
+  \/\  ####  /\/
+       `##'
 
 
  
