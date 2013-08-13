@@ -13,7 +13,21 @@ Before we dive to much into this:
 
 The focus here is to introduce navigation in a shell environment. (Note: shell, terminal, and console are used interchangably here)
 
-### Commands covered
+## Basic Navigation
+
+This section will cover three commands ``` cd ```, ``` ls ```, and ``` pwd ``` that will allow you to navigate between files and directories (also called folders) using the terminal. 
+
+``` pwd ``` stands for "present working directory" which is a long-winded way of answering the question: "Where am I?". 
+
+```
+localhost:~ mtoth$ pwd <---- Command
+/Users/mtoth           <---- Result
+localhost:~ mtoth$     <---- Waiting for next command
+```
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 * cd
 * ls
 * mkdir
