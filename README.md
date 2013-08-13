@@ -26,7 +26,7 @@ The focus here is to introduce navigation in a shell environment. (Note: shell, 
 
 
  
-## Other commands/shell things
+### Other commands/shell things
 * ^C
 * | 
 * > 
