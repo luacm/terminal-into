@@ -66,7 +66,7 @@ When learning how to use the shell there is a temptation to memorize as many com
 
 When you do need a reference try the command ``` man <command> ``` which will give you a much more detailed description of how to use shell commands than what is written here.
 
-Another important feature, called tab-complete, really makes a compelling argument for the shell. Whenever you are writing a command or folder_path press tab and it will either display a list of possibilites or complete your command if there is only one option. It feels amazing.
+Another important feature, called tab-complete, really makes a compelling argument for the shell. Whenever you are writing a command or folder_path press ``` tab ``` and it will either display a list of possibilites or complete your command if there is only one option. It feels amazing.
 
 ### Congrats! You are on your way to becoming a shell wizard
 
