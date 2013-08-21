@@ -1,19 +1,17 @@
 terminal-into
 =============
 
-A Mac and Linux based tutorial for using built-in shell commands
-
 ## Introduction
 
-* TODO: Add explanation of why learning the command line is so important
-
-The terminal is a text-based way to control a computer. Because it was created early on in computing it can be unintuitive and a little daunting. However, it is a seriously powerful tool and is probably most widely used tool by computer science professionals. 
+The terminal is a text-based way to control a computer. Because it was created early on in computing it can be unintuitive and a little daunting. However, it is a seriously powerful tool and is widely used.
 
 Before we dive to much into this:
 * Make sure you are using a Mac or Linux computer (this guide doesn't apply to Windows)
 * Open a new terminal
 
 The focus here is to introduce navigation in a shell environment. (Note: shell, terminal, and console are used interchangably here)
+
+Now that you know you are in the right place, I want to give a one-line pitch as to why the terminal is an amazing tool that you should use daily. 
 
 ## Basic Navigation
 
