@@ -60,11 +60,16 @@ A little more about relative paths. Each directory contains two files ```. ``` a
 Now that we are able to move around the filesystem; lets explore some ways to manipulate it. 
 
 * create a directory with ``` mkdir <directory_name> ``` (mkdir stands for make directory and is pronunced "make dir")
+ * ``` mkdir folder_name ``` 
 * copy files from one folder path to another with ``` cp <file_source> <file_destination> ```
-* delete a file using ``` rm <file_name> ```
+ * ``` cp file_to_copy.txt ../destination ```  
 * move a file from one folder path to another with ``` mv <file_source> <file_destination> ```
-* To view the contents of a file use ``` cat <file_name> ```
-* To change the permissions of a file use ``` chmod <permission> <file_name> ```
+ * ``` mv file_to_move.txt /Users/mtoth/destination ``` 
+* delete a file using ``` rm <file_name> ```
+ * ``` rm file_to_delete.txt ```  
+ * Be careful with rm! There is really no way to undo the delete.
+
+To copy or delete a folder call the command with the -R argument: ``` rm -R folder_to_delete ```
 
 ## More
 
@@ -73,6 +78,10 @@ When learning how to use the shell there is a temptation to memorize as many com
 When you do need a reference try the command ``` man <command> ``` which will give you a much more detailed description of how to use shell commands than what is written here.
 
 Another important feature, called tab-complete, really makes a compelling argument for the shell. Whenever you are writing a command or folder_path press ``` tab ``` and it will either display a list of possibilites or complete your command if there is only one option. It feels amazing.
+
+As you explore the shell environment you may notice a pattern the commands take, namely ``` command_name -option1 -option2 file_1 file_2 ``` this is the general pattern for shell commands.
+
+Finally, never forget to shamelessly google anything you are unsure of or don't recall.
 
 ### Congrats! You are on your way to becoming a shell wizard
 
@@ -97,7 +106,5 @@ Here are some commands, try them!
 * ``` cp <source_file> <target_file> ```
 * ``` mv <source_file> <target_file> ```
 * ``` rm <file_name> ```
-* ``` cat <file_name> ```
-* ``` chmod <mode> <file_name> ```
 
-use ``` man <command_name> ``` for help!
+use ``` man <command_name> ``` for help
