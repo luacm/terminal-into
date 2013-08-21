@@ -70,10 +70,11 @@ Now that we are able to move around the filesystem; lets explore some ways to ma
  * Be careful with rm! There is really no way to undo the delete.
 
 To copy or delete a folder call the command with the -R argument: ``` rm -R folder_to_delete ```
+Since these commands are pretty self-explanatory, I won't waste time explaining what deleting a folder means. Instead, I encourage you to try them out!
 
 ## More
 
-When learning how to use the shell there is a temptation to memorize as many commands as possible; however, a far more effective and efficient learning strategy is to use the shell daily. There are still many programs which are most easily used through the shell such as git, package management (such as apt-get or homebrew), and text editing (vim, emacs, or nano).
+When learning how to use the shell there is a temptation to memorize as many commands as possible; however, a far more effective and efficient learning strategy is to use the shell daily. There are still many programs which are most easily used through the shell such as [git](http://git-scm.com/), package managers (such as [apt-get](http://www.apt-get.org/) or [homebrew](http://brew.sh/)), and text editors ([vim](http://www.vim.org/)).
 
 When you do need a reference try the command ``` man <command> ``` which will give you a much more detailed description of how to use shell commands than what is written here.
 
