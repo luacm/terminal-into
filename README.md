@@ -100,12 +100,11 @@ C
 
 Here are some commands, try them!
 
-* ``` cd <path> ```
-* ``` pwd ```
-* ``` ls ```
-* ``` mkdir <folder_name> ```
-* ``` cp <source_file> <target_file> ```
-* ``` mv <source_file> <target_file> ```
-* ``` rm <file_name> ```
-
-use ``` man <command_name> ``` for help
+* ``` cd <path> ```: Changes the active directory to <path>.
+* ``` pwd ```: Gives you the path of your active directory.
+* ``` ls ```: Lists all of the files in your active directory.
+* ``` mkdir <folder_name> ```: Makes a folder called ```<folder_name>``` in your active directory.
+* ``` cp <source_file> <target_file> ```: Copies ```<source_file>``` to the destination ```<target_file>```.
+* ``` mv <source_file> <target_file> ```: Moves ```<source_file>``` to the destination ```<target_file>```.
+* ``` rm <file_name> ```: Deletes ```<file_name>```. Permanently!
+* ``` man <command_name> ```: Brings up a help page for ```<command_name>```.
