@@ -6,7 +6,7 @@ terminal-into
 The terminal is a text-based way to control a computer. Because it was created early on in computing it can be unintuitive and a little daunting. However, it is a seriously powerful tool worth using.
 
 Before we dive into it:
-* Make sure you are using a Mac or Linux computer (this guide doesn't apply to Windows)
+* Make sure you are using a Mac or Linux computer (if you have a Windows computer, you can use the terminal on [cloud9](http://c9.io/)).
 * Open a new terminal
 
 Now that you know you are in the right place, I want to give a one-line pitch as to why the terminal is an amazing tool that you should use daily:
