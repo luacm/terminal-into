@@ -1,5 +1,4 @@
-terminal-into
-=============
+# Introduction to Using the Terminal
 
 ## Introduction
 
