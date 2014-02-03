@@ -18,7 +18,7 @@ ssh username@sunlab.cse.lehigh.edu
 * This is cool for moving around and editing files (as we will soon see) but what if I need to transfer a file?
 
 ```
-scp 
+scp filename username@sunlab.cse.lehigh.edu:/path/to/directory 
 ```
 * One-time secure copy of the file
 
