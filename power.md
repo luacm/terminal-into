@@ -19,6 +19,9 @@
 
 ## Advanced Shell stuff
 
+* ``` crtl- a ``` beginning of the line ``` crtl-e ``` end of the line
+* ``` !<command>``` redo last use of the command, ``` !! ``` do last command again
+* ``` echo $? ``` prints whether the last command was successful 0 or the error code
 * Scripting
 * | < >
 * history, arrow up and down
