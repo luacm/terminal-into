@@ -44,3 +44,12 @@ vim filename
  * To go to the beginning of the line ``` _ ```, to go to the end ``` $ ```.
  
  * Ok that was a whirlwind tour through vim motion. Don't worry if you missed any of it, there is more to come. On a more serious note, this stuff will only sink in through practice. If everyday you code you try the terminal instead of your IDE or whatever, you will become a pro in no time. I want you to take in how powerful a tool like vim is.  
+ 
+## Editing
+
+* Ok almost done with our vim basics
+* ``` dd ``` cuts a line, ``` p ``` pastes whatever you have just deleted, ``` yy ``` copies a line. 
+* Similar to the movement commands ``` 10dd ``` deletes 10 lines and ``` 10yy ``` copies 10 lines.
+* To indent blocks of text use ``` >> ``` to indent in or ``` << ``` to indent out and, of course, ``` 10>> ``` to indent 10 lines
+* you can search with ``` /searchquery ``` and move between matches with ``` n ``` and ``` N ```
+* The coolest thing here is you can set a mark on a line using ``` m<letter> ``` and travel to that mark from anywhere with ``` '<letter> ```. For example, ``` ma ``` ... go somewhere else ... ``` 'a ``` takes you right back to that line. Pretty dope
