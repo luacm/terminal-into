@@ -30,4 +30,17 @@ vim filename
 
 * Right away, we are bummed because it takes two steps to save and quit. Not so! Combine your commands ``` :wq<enter> ``` will save and quit. 
 
-* Ok lets open the file up again. In practice since we are using the terminal, we will only rarely quit vim. Instead, the more common and useful pattern 
+* Ok lets open the file up again. In practice since we are using the terminal, we will only rarely quit vim. Instead, the more common and useful pattern is to put vim in the background when you leave it using ``` crtl-Z ``` and bring it back to the foreground using ``` fg ```
+
+## More Navigation
+
+* Sorry to run through commands like this, but you need a base layer to get moving. Does this feel like a crash course? Thats because it is! Take away as much as you can, get curious and google/check this document out afterwards!
+* So in __Insert__ mode movement is easy: arrow keys 
+* But you should be spending most of your time in __Command__ mode
+ * In __Command__ mode you can also move with the arrow keys put that would move your fingers off home row which is no bueno
+ * Instead you can use ``` h ``` to move one character to the left, ``` l ``` to move one right, ``` j ``` to move one down and ``` k ``` to move one up. Is that hard to remember? Train your fingers using [vim snake!](http://www.vimsnake.com/). #notajoke
+ * Notice the line numbers on the side; those will be your guide to moving really fast without a mouse. Want to change something on line 40? In __Command__ mode, go ``` 40gg ```. Top of the page? ``` gg ```, Bottom? ``` G ```.
+ * What if you just want to scroll down or over? There are a variety of ways to do it, but the one that has worked the best for me is to go ``` 10j ``` to go down 10 lines. (or ``` h, k, l ``` for the other directions)
+ * To go to the beginning of the line ``` _ ```, to go to the end ``` $ ```.
+ 
+ * Ok that was a whirlwind tour through vim motion. Don't worry if you missed any of it, there is more to come. On a more serious note, this stuff will only sink in through practice. If everyday you code you try the terminal instead of your IDE or whatever, you will become a pro in no time. I want you to take in how powerful a tool like vim is.  
