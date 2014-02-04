@@ -28,4 +28,6 @@
 
 ## Advanced VIM stuff
 
+* Make your vim experience awesome: [spf13](https://github.com/spf13/spf13-vim)
 * compile with make file and navigate to errors using quickfix
+
