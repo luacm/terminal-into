@@ -27,4 +27,8 @@ alias pull="git pull"
 alias branch="git branch"
 alias checkout="git checkout"
 
+#Lehigh Specific
+alias sunlab="ssh mft214@sunlab.cse.lehigh.edu"
+alias fsunlab="sftp mft214@sunlab.cse.lehigh.edu"
+
 
