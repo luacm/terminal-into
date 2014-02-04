@@ -12,6 +12,7 @@
 ### .bashrc
 
 * Allows you to customize your shell experience. I posted the one I use on my Mac on the github. Feel free to use it and expand on it.
+* Your bash profile or rc is a hidden file in your home (~) directory
 
 
 ## Advanced Shell stuff
