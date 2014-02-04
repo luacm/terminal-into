@@ -11,10 +11,7 @@
 
 ### .bashrc
 
-* Lists all the additional configurations for your shell. (Demo with yours on and off)
-* Do an alias example 
-* Put yours up on github page
-* source after you change it
+* Allows you to customize your shell experience. I posted the one I use on my Mac on the github. Feel free to use it and expand on it.
 
 
 ## Advanced Shell stuff
@@ -22,6 +19,7 @@
 * ``` crtl- a ``` beginning of the line ``` crtl-e ``` end of the line
 * ``` !<command>``` redo last use of the command, ``` !! ``` do last command again
 * ``` echo $? ``` prints whether the last command was successful 0 or the error code
+* Stop a process, kill a process
 * Scripting
 * | < >
 * history, arrow up and down
