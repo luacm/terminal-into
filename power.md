@@ -20,6 +20,7 @@
 * ``` !<command>``` redo last use of the command, ``` !! ``` do last command again
 * ``` echo $? ``` prints whether the last command was successful 0 or the error code
 * Exit a process ``` crtl-C ```, kill a process ``` kill -15 <pid> ```
+* ``` curl ```
 * history, arrow up and down ``` history ```
 * You can take the output of a process and use it as the input of another ``` | ```
   * ex. ``` history | grep ssh ``` 
