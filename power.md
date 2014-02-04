@@ -11,10 +11,7 @@
 
 ### .bashrc
 
-* Lists all the additional configurations for your shell. (Demo with yours on and off)
-* Do an alias example 
-* Put yours up on github page
-* source after you change it
+* Allows you to customize your shell experience. I posted the one I use on my Mac on the github. Feel free to use it and expand on it.
 
 
 ## Advanced Shell stuff
@@ -22,12 +19,13 @@
 * ``` crtl- a ``` beginning of the line ``` crtl-e ``` end of the line
 * ``` !<command>``` redo last use of the command, ``` !! ``` do last command again
 * ``` echo $? ``` prints whether the last command was successful 0 or the error code
-* Scripting
-* | < >
-* history, arrow up and down
+* Exit a process ``` crtl-C ```, kill a process ``` kill -15 <pid> ```
+* history, arrow up and down ``` history ```
+* You can take the output of a process and use it as the input of another ``` | ```
+  * ex. ``` history | grep ssh ``` 
+* write to file ``` > ```
+* read from file ``` < ```
 
 ## Advanced VIM stuff
 
 * compile with make file and navigate to errors using quickfix
-
-## Screen and Tailing error logs
